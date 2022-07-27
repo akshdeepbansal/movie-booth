@@ -57,7 +57,7 @@ const Home = () => {
     <MainPageLayout>
       <SearchInput
         type="text"
-        placeholder="Search for something"
+        placeholder="Type a name !"
         onChange={onInputChange}
         onKeyDown={onKeyDown}
         value={input}
@@ -66,7 +66,7 @@ const Home = () => {
       <RadioInputsWrapper>
         <div>
           <CustomRadio
-            label="Shows"
+            label="Movies and Shows"
             id="shows-search"
             value="shows"
             checked={isShowsSearch}
